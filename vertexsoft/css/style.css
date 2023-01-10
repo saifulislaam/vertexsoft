@@ -62,6 +62,7 @@ h1{
     margin:50px;
     margin-right: 100px;
 }
+
 .btn-2{
     border: none;
     border-radius: 5px;
@@ -290,6 +291,49 @@ a{
 }
 footer{
     margin-left: 100px;
+}
+@media only screen and (max-width: 900px) {
+    .maindiv1{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:auto auto;
+        margin:50px;
+        margin-top: 100px;
+    }
+    .maindiv2{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+    .sub-main-div{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:auto auto auto auto;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        row-gap: 100px;
+        margin-top: 100px
+    }
+    .box-4{
+       width: 400px;
+    }
+    .box-3{
+      margin-left: 20px;
+    }
+    .box-6{
+        margin-top: 50px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .box-7{
+        width: 500px;
+    }
+    .maindiv4{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:auto auto ;
+        margin-top: 100px;
+    }
 }
 
 
